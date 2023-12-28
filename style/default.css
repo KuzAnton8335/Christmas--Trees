@@ -46,7 +46,11 @@ h3 {
 	color: var(--main-color);
 	letter-spacing: 0.01em;
 }
-
+h1,
+h2,
+h3 {
+	margin: 0;
+}
 .container {
 	max-width: 1390px;
 	margin: 0 auto;
@@ -78,6 +82,18 @@ button {
 @media (max-width: 1440px) {
 	.container {
 		padding: 0 42px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.container {
+		padding: 0 39px;
+	}
+}
+
+@media (max-width: 580px) {
+	.container {
+		padding: 0 10px;
 	}
 }
 
